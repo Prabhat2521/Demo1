@@ -1,0 +1,130 @@
+
+.input-group .form-control, .input-group .btn {
+    border: 1px solid #ced4da;
+    border-top: none;
+    border-bottom: none;
+}
+
+input:placeholder-shown {
+    font-style: italic;
+}
+
+header .row {
+    align-items: baseline;
+}
+.color1{
+    background-color: #047EBB;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.color2{
+    background-color: #A0AF46;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+.color3{
+    background-color: #E48F62;
+    line-height: 1.3rem;
+    font-size: 0.9rem;
+}
+
+.img_bg{
+    background-image: url("https://content.thriveglobal.com/wp-content/uploads/2020/02/employee_behavior.jpeg");
+    background-size: cover;
+    border: none;
+    border-radius: 0%;
+}
+.customer_img{
+    z-index:2;
+}
+.card-body>div{
+    position: absolute;
+    top: 64px;
+    left: 0;
+    background-color: blue;
+    padding: 3px;
+    font-size: 17px;
+}
+.card .card-footer{
+    background-color: #595049;
+    opacity:0.9;
+}
+
+.card .card-footer>p{
+    font-size: 0.6rem;
+    margin-bottom: 0.4rem;
+}
+.card-body i {
+    font-size:70px;
+    margin-bottom: 1rem;
+}
+.bg_footer{
+    background-color:#E7E7E7;
+}
+
+.img_potrait{
+    background-image: url("https://i.pinimg.com/474x/70/ab/cd/70abcd891e11a9511fe348b85ef34091--corporate-portrait-contemporary-office.jpg");
+    background-size: cover;
+}
+
+.rounded-circle{
+    width: 100px;
+    height: 100px;
+    margin-top: -47px;
+}
+.text1{
+    color:#558295;
+}
+
+.few_icon{
+    list-style: none;
+}
+
+.few_icon>li:before {
+content: "\f152"; /* FontAwesome Unicode */
+font-family: FontAwesome;
+display: inline-block;
+margin-left: -1.3em; 
+width: 1.3em; 
+color:#558295;
+}
+
+.icon{
+    list-style: none;
+}
+
+.icon>li:before {
+    content: "\f054";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: -1.3em;
+    width: 1.3em; 
+    color:#9B9B9B;
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+}
+
+.stay_icons i{
+    font-size:50px;
+    border-radius: 0%;
+}
+.fb{
+    color:#0000ff;
+}
+.google{
+    color:rgb(243, 41, 41);
+}
+.twitter{
+    color:rgb(46, 163, 202);
+}
+.pin{
+    color:rgb(243, 47, 47);
+}
+.linkedin{
+    color:rgb(46, 163, 202);
+}
+
+.fs-6 {
+    font-size: 0.7rem!important;
+}
